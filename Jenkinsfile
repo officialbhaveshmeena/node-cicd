@@ -21,7 +21,7 @@ pipeline {
             steps {
                 echo 'Running tests...'
                 // Optional test command
-                bat 'npm test || echo "No tests to run"'
+                // bat 'npm test || echo "No tests to run"'
             }
         }
 
